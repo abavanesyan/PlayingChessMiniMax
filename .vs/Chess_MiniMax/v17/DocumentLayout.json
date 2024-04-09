@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\UFAR\\2nd year\\C#\\Chess_MiniMax\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1366527B-5CA7-4B9E-92E0-D63EB1B5C461}|Chess_MiniMax\\Chess_MiniMax.csproj|c:\\users\\user\\desktop\\ufar\\2nd year\\c#\\chess_minimax\\chess_minimax\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1366527B-5CA7-4B9E-92E0-D63EB1B5C461}|Chess_MiniMax\\Chess_MiniMax.csproj|solutionrelative:chess_minimax\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1366527B-5CA7-4B9E-92E0-D63EB1B5C461}|Chess_MiniMax\\Chess_MiniMax.csproj|C:\\Users\\User\\Desktop\\UFAR\\2nd year\\C#\\Chess_MiniMax\\chess_minimax\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1366527B-5CA7-4B9E-92E0-D63EB1B5C461}|Chess_MiniMax\\Chess_MiniMax.csproj|solutionrelative:chess_minimax\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\UFAR\\2nd year\\C#\\Chess_MiniMax\\Chess_MiniMax\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Chess_MiniMax\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\UFAR\\2nd year\\C#\\Chess_MiniMax\\Chess_MiniMax\\MainWindow.xaml",
+              "RelativeToolTip": "Chess_MiniMax\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-01T19:17:48.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\UFAR\\2nd year\\C#\\Chess_MiniMax\\Chess_MiniMax\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Chess_MiniMax\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\UFAR\\2nd year\\C#\\Chess_MiniMax\\Chess_MiniMax\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Chess_MiniMax\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAOkCAAAAAAAAAAAqwF8EAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T19:17:47.946Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

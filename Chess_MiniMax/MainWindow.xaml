@@ -1,0 +1,40 @@
+﻿<Window x:Class="Chess_MiniMax.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="438" Width="416" ResizeMode="CanMinimize" MouseMove="Window_MouseMove">
+    <Grid Name="myGrid">
+        <Image Name="MyBoard" Source="board.jpg" Stretch="Fill"/>
+        <Image Name="BlackQueen" Source="bq.gif" Margin="150,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+        <Image Name="MyBnFigure" Source="bn.gif" Margin="50,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+        <Image Name="MyBnFigure2" Source="bn.gif" Margin="300,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+        <Image Name="MyWbFigure" Source="bb.gif" Margin="100,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50" RenderTransformOrigin="-0.063,0.547"/>
+        <Image Name="MyWbFigure2" Source="bb.gif" Margin="250,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50" RenderTransformOrigin="-0.063,0.547"/>
+        <Image Name="BlackPawn1" Source="bp.gif" Margin="0,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+        <Image Name="BlackPawn2" Source="bp.gif" Margin="50,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+        <Image Name="BlackPawn3" Source="bp.gif" Margin="100,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+        <Image Name="BlackPawn4" Source="bp.gif" Margin="150,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+        <Image Name="BlackPawn5" Source="bp.gif" Margin="200,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+        <Image Name="BlackPawn6" Source="bp.gif" Margin="250,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+        <Image Name="BlackPawn7" Source="bp.gif" Margin="300,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+        <Image Name="BlackPawn8" Source="bp.gif" Margin="350,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+        <Image Name="BlackRook" Source="br.gif" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+        <Image Name="BlackRook2" Source="br.gif" Margin="350,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+        <Image Name="WhitePawn1" Source="wp.gif" Margin="0,300,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"  MouseDown="WhitePawn_MouseDown" MouseUp="WhitePawn_MouseUp" Cursor="Hand"/>
+        <Image Name="WhitePawn2" Source="wp.gif" Margin="50,300,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"  MouseDown="WhitePawn_MouseDown" MouseUp="WhitePawn_MouseUp" Cursor="Hand"/>
+        <Image Name="WhitePawn3" Source="wp.gif" Margin="100,300,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"  MouseDown="WhitePawn_MouseDown" MouseUp="WhitePawn_MouseUp" Cursor="Hand"/>
+        <Image Name="WhitePawn4" Source="wp.gif" Margin="150,300,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"  MouseDown="WhitePawn_MouseDown" MouseUp="WhitePawn_MouseUp" Cursor="Hand"/>
+        <Image Name="WhitePawn5" Source="wp.gif" Margin="200,300,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"  MouseDown="WhitePawn_MouseDown" MouseUp="WhitePawn_MouseUp" Cursor="Hand"/>
+        <Image Name="WhitePawn6" Source="wp.gif" Margin="250,300,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"  MouseDown="WhitePawn_MouseDown" MouseUp="WhitePawn_MouseUp" Cursor="Hand"/>
+        <Image Name="WhitePawn7" Source="wp.gif" Margin="300,300,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"  MouseDown="WhitePawn_MouseDown" MouseUp="WhitePawn_MouseUp" Cursor="Hand"/>
+        <Image Name="WhitePawn8" Source="wp.gif" Margin="350,300,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"  MouseDown="WhitePawn_MouseDown" MouseUp="WhitePawn_MouseUp" Cursor="Hand"/>
+        <Image Name="WhiteQueen" Source="wq.gif" Margin="150,350,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50" MouseDown="WhiteQueen_MouseDown" MouseUp="WhiteQueen_MouseUp" Cursor="Hand"/>
+        <Image Name="WhiteRook1" Source="wr.gif" Margin="0,350,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50" MouseDown="WhiteRook_MouseDown" MouseUp="WhiteRook_MouseUp" Cursor="Hand"/>
+        <Image Name="WhiteRook2" Source="wr.gif" Margin="350,350,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50" MouseDown="WhiteRook_MouseDown" MouseUp="WhiteRook_MouseUp" Cursor="Hand"/>
+        <Image Name="WhiteKnight1" Source="wn.gif" Margin="50,350,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50" MouseDown="WhiteKnight_MouseDown" MouseUp="WhiteKnight_MouseUp" Cursor="Hand"/>
+        <Image Name="WhiteKnight2" Source="wn.gif" Margin="300,350,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50" MouseDown="WhiteKnight_MouseDown" MouseUp="WhiteKnight_MouseUp" Cursor="Hand"/>
+        <Image Name="WhiteBishop1" Source="wb.gif" Margin="100,350,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50" MouseDown="WhiteBishop_MouseDown" MouseUp="WhiteBishop_MouseUp" Cursor="Hand"/>
+        <Image Name="WhiteBishop2" Source="wb.gif" Margin="250,350,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50" MouseDown="WhiteBishop_MouseDown" MouseUp="WhiteBishop_MouseUp" Cursor="Hand"/>
+        <Image Name="WhiteKing" Source="wk.gif" Margin="200,350,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50" MouseDown="WhiteKing_MouseDown" MouseUp="WhiteKing_MouseUp" Cursor="Hand"/>
+        <Image Name="BlackKing" Source="bk.gif" Margin="200,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="50"/>
+    </Grid>
+</Window>
